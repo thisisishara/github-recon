@@ -50,3 +50,19 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+
+# Project Initialization Steps
+```bash
+npm create vue@3
+npm install      
+npm run format
+npm run dev     
+git init 
+git branch -M main
+git remote add origin <repo_link>
+git add .
+git commit -m "initial commit"
+git push --set-upstream origin main or git branch --set-upstream-to=origin/main main
+git checkout dev
+```
